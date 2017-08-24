@@ -37,6 +37,11 @@
        // Compile with Typescript
        .pipe(gulpTypescript({
          noImplicitAny: true,
+         outdir: "./dist",
+         filesGlob : [
+            "node_modules/@types",
+            "typings/index.d.ts"
+          ],
        })).js
 
        // Append Warning Comment
