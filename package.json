@@ -1,0 +1,30 @@
+{
+  "name": "tuxlab-courses",
+  "version": "1.0.0",
+  "description": "TuxLab Community Courses",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "$(npm bin)/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnlinux/tuxlab-courses.git"
+  },
+  "author": "Derek Brown",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/learnlinux/tuxlab-courses/issues"
+  },
+  "homepage": "https://github.com/learnlinux/tuxlab-courses#readme",
+  "dependencies": {
+    "gulp-cli": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.42",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-typescript": "^3.2.2",
+    "gulp-typings": "^2.0.4",
+    "typescript": "^2.4.2"
+  }
+}

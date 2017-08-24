@@ -1,0 +1,7 @@
+{
+  "name" : "TuxLab Community Courses",
+  "dependencies" : {},
+  "globalDependencies": {
+    "tuxlab-api" : "https://raw.githubusercontent.com/learnlinux/tuxlab-app/beta/imports/api/tuxlab-api.d.ts"
+  }
+}
