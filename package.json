@@ -4,7 +4,7 @@
   "description": "TuxLab Community Courses",
   "main": "index.js",
   "scripts": {
-    "postinstall": "$(npm bin)/gulp"
+    "build": "$(npm bin)/gulp"
   },
   "repository": {
     "type": "git",

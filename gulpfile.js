@@ -43,9 +43,9 @@
 
        // Compile with Typescript
        .pipe(gulpTypescript({
-         "target": "es2015",
+         target: "es5",
          noImplicitAny: true,
-         removeComments: true
+         removeComments: false
        })).js
 
        // Append Warning Comment
@@ -55,7 +55,7 @@
        .pipe(gulpRename(function(path){
          path.dirname += "/dist";
        }))
-       
+
        .pipe(gulp.dest(coursesDir));
   })
 

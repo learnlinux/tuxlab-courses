@@ -1,9 +1,11 @@
 {
   "name": "TuxLab Community Courses",
   "dependencies": {
-    "bluebird": "registry:npm/bluebird#3.5.0+20170314181206"
+    "bluebird": "registry:npm/bluebird#3.5.0+20170314181206",
+    "lodash": "registry:npm/lodash#4.0.0+20161015015725"
   },
   "globalDependencies": {
+    "es6-promise": "registry:dt/es6-promise#0.0.0+20160726191732",
     "tuxlab-api": "https://raw.githubusercontent.com/learnlinux/tuxlab-app/beta/imports/api/tuxlab-api.d.ts"
   }
 }
