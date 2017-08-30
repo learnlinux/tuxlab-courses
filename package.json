@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/learnlinux/tuxlab-courses#readme",
   "dependencies": {
-    "gulp-cli": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.42",
+    "@types/request-promise": "^4.1.37",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^1.2.2",
     "gulp-typescript": "^3.2.2",

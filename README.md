@@ -1,10 +1,7 @@
 # TuxLab Community Courses
 
-## Available Libraries
+#### Available Libraries:
 
-__lodash__
-```
-  import * as _ from "lodash";
-```
-
-## Building
+* lodash as `_`
+* request-promise as `rp`
+#### Building:
